@@ -7,7 +7,11 @@ if len(scores) == 0:
 else:
     total = sum(scores)
     average = total / len(scores)
+    maximum = max(scores)
+    minimum = min(scores)
 
     print("Scores:", scores)
     print("Total:",total)
     print("Average:", average)
+    print("Maximum:", maximum)
+    print("Minimum:", minimum)
